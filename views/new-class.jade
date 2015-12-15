@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  .container-fluid    
+    .row
+      h2.col-md-4.col-md-offset-4.text-center Create a new class
+    .row
+      .col-md-4.col-md-offset-4.text-center
+        form.login-form(action="/classes" method="POST")
+          .form-group
+            label(for="name") Name
+            input.form-control#name(name="name" type="text" placeholder="Period 2" maxLength="60")
+          .form-group
+            label(for="students") Student Names (comma separated, no spaces)
+            textarea.form-control#students(name="students")            
+          button.btn.btn-default(type="submit") Submit    

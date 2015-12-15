@@ -1,0 +1,12 @@
+{
+  "development": {
+    "username": "grouper",
+    "password": "grouper",
+    "database": "grouperdb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+      "use_env_variable": "DATABASE_URL"
+  }
+}

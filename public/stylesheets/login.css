@@ -1,0 +1,9 @@
+.login-form {
+	border: 1px solid gray;
+	padding: 10px;
+}
+
+.create-student-link {
+	cursor: pointer;
+}
+
